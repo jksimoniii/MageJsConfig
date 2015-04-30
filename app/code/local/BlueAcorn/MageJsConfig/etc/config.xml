@@ -1,0 +1,40 @@
+<config>
+    <modules>
+        <BlueAcorn_MageJsConfig>
+            <version>1.0.0</version>
+        </BlueAcorn_MageJsConfig>
+    </modules>
+
+    <global>
+        <helpers>
+            <blueacorn_magejsconfig>
+                <class>BlueAcorn_MageJsConfig_Helper</class>
+            </blueacorn_magejsconfig>
+        </helpers>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <blueacorn_magejsconfig>
+                    <file>blueacorn/magejsconfig.xml</file>
+                </blueacorn_magejsconfig>
+            </updates>
+        </layout>
+
+        <jsconfig>
+            <web>
+                <secure>
+                    <base_url name="base_url" />
+                </secure>
+            </web>
+        </jsconfig>
+    </frontend>
+
+    <jsconfig>
+        <demo_message>
+            <class>BlueAcorn_MageJsConfig_Helper_Config</class>
+            <method>sayHello</method>
+        </demo_message>
+    </jsconfig>
+</config>

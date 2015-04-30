@@ -1,0 +1,7 @@
+<layout>
+    <default>
+        <reference name="before_body_end">
+            <block type="core/template" name="magejsconfig" template="blueacorn/magejsconfig/magejsconfig.phtml" />
+        </reference>
+    </default>
+</layout>

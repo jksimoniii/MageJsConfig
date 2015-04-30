@@ -1,0 +1,8 @@
+<config>
+    <modules>
+        <BlueAcorn_MageJsConfig>
+            <active>true</active>
+            <codePool>local</codePool>
+        </BlueAcorn_MageJsConfig>
+    </modules>
+</config>
