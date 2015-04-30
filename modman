@@ -1,0 +1,4 @@
+app/etc/modules/BlueAcorn_MageJsConfig.xml	app/etc/modules/BlueAcorn_MageJsConfig.xml
+app/code/local/BlueAcorn/MageJsConfig		app/code/local/BlueAcorn/MageJsConfig
+app/design/frontend/base/default/layout/blueacorn/magejsconfig.xml	app/design/frontend/base/default/layout/blueacorn/magejsconfig.xml
+app/design/frontend/base/default/template/blueacorn/magejsconfig	app/design/frontend/base/default/template/blueacorn/magejsconfig
