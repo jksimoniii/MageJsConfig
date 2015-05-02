@@ -11,6 +11,11 @@
                 <class>BlueAcorn_MageJsConfig_Helper</class>
             </blueacorn_magejsconfig>
         </helpers>
+        <models>
+            <blueacorn_magejsconfig>
+                <class>BlueAcorn_MageJsConfig_Model</class>
+            </blueacorn_magejsconfig>
+        </models>
     </global>
 
     <frontend>

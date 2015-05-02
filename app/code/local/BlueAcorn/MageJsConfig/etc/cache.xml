@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <placeholders>
+        <magejsconfig>
+            <block>core/template</block>
+            <template>checkout/button.phtml</template>
+            <name>magejsconfig</name><!-- THIS MUST MATCH THE ALIAS IN THE LAYOUT XML EXACTLY -->
+            <placeholder>MAGEJSCONFIG</placeholder>
+            <container>BlueAcorn_MageJsConfig_Model_Container_MageJsConfig</container>
+            <cache_lifetime>0</cache_lifetime>
+        </magejsconfig>
+    </placeholders>
+</config>
