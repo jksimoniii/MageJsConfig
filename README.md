@@ -4,10 +4,10 @@ MageJsConfig is a module developed for Magento Community and Enterprise editions
 of core_config_data available for usage on the frontend via a javascript object named *mageConfig*.
 
 ## Usage
-*See below for an example.*  This module introduces an additional node as a child to the ```xml <config> ``` node known as the ```xml <jsconfig> ``` node.
-Within the ```xml<jsconfig>``` node there are two methods of populating the resulting *mageConfig* object with data.
-  * ```xml <system> ```: The following 3 nested nodes define the config path to populate the resulting *mageConfig* object.
-  * ```xml <helpers> ```: We can optionally use this node to define a class and method to populate the resulting *mageConfig* object.
+*See below for an example.*  This module introduces an additional node as a child to the ```<config>``` node known as the ```<jsconfig>``` node.
+Within the ```<jsconfig>``` node there are two methods of populating the resulting *mageConfig* object with data.
+  * ```<system>```: The following 3 nested nodes define the config path to populate the resulting *mageConfig* object.
+  * ```<helpers>```: We can optionally use this node to define a class and method to populate the resulting *mageConfig* object.
 
 Lastly, we have further control of the data in *mageConfig* by specifying a *name* attribute
 
